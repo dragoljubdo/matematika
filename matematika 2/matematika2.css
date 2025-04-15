@@ -1,0 +1,214 @@
+body{
+  background-color: rgb(26, 24, 24);
+}
+
+*{
+  font-family: "Montserrat";
+}
+
+#dropdownbutton{
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border-style: solid;
+  border-color: rgb(190, 190, 190);
+  font-size: 20px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 60px;
+  border-width: 4px;
+  width: 230px;
+  transition: all 0.15s;
+}
+
+#dropdownbutton:hover{
+  cursor: pointer;
+  background-color: rgb(209,209,209);
+  cursor: pointer;
+}
+
+#kvadratdugme{
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 60px;
+  border-width: 4px;
+  width: 230px;
+  border-left: 4px;
+  border-left-style: solid;
+  border-left-color:rgb(190, 190, 190);
+  border-right: 4px;
+  border-right-style: solid;
+  border-right-color: rgb(190, 190, 190);
+  border-top-style: none;
+  border-bottom-style: none;
+  transition: all 0.15s;
+  display: none;
+}
+
+#kvadratdugme:hover{
+  background-color: rgb(209, 209, 209);
+  cursor: pointer;
+}
+
+#krugdugme{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 60px;
+    border-width: 4px;
+    width: 230px;
+    border-left: 4px;
+    border-left-style: solid;
+    border-left-color:rgb(190, 190, 190);
+    border-right: 4px;
+    border-right-style: solid;
+    border-right-color: rgb(190, 190, 190);
+    border-top-style: none;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(190, 190, 190);
+    transition: all 0.15s;
+    display: none;
+}
+
+#krugdugme:hover{
+  background-color: rgb(209,209,209);
+  cursor: pointer;
+}
+
+#dropdownbar{
+  display: block;
+}
+
+#dropdownbutton{
+  display: block;
+}
+
+#tekst{
+  color: white;
+  font-size: 18px;
+  margin-top: 50px;
+  width: 300px;
+}
+
+#obrisikvadrat{
+  width: 100px;
+  background-color: rgb(26, 24, 24);
+  color:white;
+  border-style: none;
+  border-radius: 5px;
+}
+
+#obrisikvadrat:hover{
+  background-color: rgb(83, 77, 77);
+  cursor: pointer;
+}
+
+#izracunajkvadrat{
+  width: 100px;
+  background-color: rgb(26, 24, 24);
+  color:white;
+  border-style: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#izracunajkvadrat:hover{
+  background-color: rgb(83, 77, 77);
+  cursor: pointer;
+}
+
+#kvadratslika{
+  height: 300px;
+  display: block;
+  margin-top: 50px;
+}
+
+#kvadratunos{
+  position: absolute;
+  right: 50%;
+  left: 42%;
+  display: none;
+}
+
+#unosstranicek{
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+#greska{
+  width: 200px;
+  color: white;
+  display: none;
+}
+
+.opistekst{
+  color: white;
+  width: 200px;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+#krugunos{
+  position: absolute;
+  right: 50%;
+  left: 42%;
+  display: none;
+}
+
+#tekstkrug{
+  color: white;
+  font-size: 18px;
+  margin-top: 50px;
+  width: 300px;
+}
+
+#unospoluprecnika{
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+#izracunajkrug{
+  width: 100px;
+  background-color: rgb(26, 24, 24);
+  color:white;
+  border-style: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  }
+
+#obrisikrug{
+  width: 100px;
+  background-color: rgb(26, 24, 24);
+  color:white;
+  border-style: none;
+  border-radius: 5px;
+}
+
+#obrisikrug:hover{
+  background-color: rgb(83, 77, 77);
+  cursor: pointer;
+}
+
+#izracunajkrug:hover{
+    background-color: rgb(83, 77, 77);
+    cursor: pointer;
+}
+
+#krugslika{
+  height: 300px;
+  display: block;
+  margin-top: 50px;
+}
+
+#greska2{
+  width: 200px;
+  color: white;
+  display: none;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="matematika2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <Title>Nesto nesto</Title>
+  </head>
+  <body>
+    <div id="dropdownbar">
+      <button id="dropdownbutton">Izaberi oblik &#8595;</button>
+      <div id="dropdowncontent">
+        <button id="kvadratdugme">Kvadrat</button>
+        <br>
+        <button id="krugdugme">Krug</button>
+      </div>
+    </div>
+    <div id="kvadratunos">
+      <p id="tekst">Unesi stranicu kvadrata</p>
+      <input type="number" min="0" placeholder="Stranica A" id="unosstranicek">
+      <p class="opistekst">Obim kvadrata:</p>
+      <input readonly id="obimkvadrata">
+      <p class="opistekst">Povrsina Kvadrata:</p>
+      <input readonly id="povrsinakvadrata">
+      <p class="opistekst">Dijagonala kvadrata:</p>
+      <input readonly id="dijagonalakvadrata">
+      <button id="izracunajkvadrat">Izracunaj</button>
+      <button id="obrisikvadrat">Obrisi</button>
+      <p id="greska">Stranica ne moze biti u minusu ili nula.</p>
+      <img id="kvadratslika" src="kvadrat.png">
+    </div>
+    
+    <div id="krugunos">
+      <p id="tekstkrug">Unesi poluprecnik kruga</p>
+      <input type="number" min="0" placeholder="Poluprecnik r" id="unospoluprecnika">
+      <p class="opistekst">Obim kruga:</p>
+      <input readonly id="obimkruga">
+      <p class="opistekst">Povrsina kruga:</p>
+      <input readonly id="povrsinakruga">
+      <button id="izracunajkrug">Izracunaj</button>
+      <button id="obrisikrug">Obrisi</button>
+      <p id="greska2">Poluprecnik ne moze biti u minusu ili nula.</p>
+      <img src="krug.png" id="krugslika"
+    </div>
+    <script src="matematika2.js"></script>
+  </body>
+</html>
